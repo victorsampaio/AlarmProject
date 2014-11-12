@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="android.com.alarmproject" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".AlarmProjectMenuActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AlarmProgramActivity"
+            android:label="@string/title_activity_alarm_program" >
+        </activity>
+
+        <receiver android:name=".AlarmReceiver" >
+            <intent-filter>
+                <action android:name="START_ALARM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".AlarmProgramRepeatActivity"
+            android:label="@string/title_activity_alarm_program_repeat" >
+        </activity>
+    </application>
+
+</manifest>

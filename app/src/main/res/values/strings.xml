@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AlarmProject</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_alarm_program">AlarmProgramActivity</string>
+    <string name="title_activity_alarm_program_repeat">AlarmProgramRepeatActivity</string>
+
+</resources>
